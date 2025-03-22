@@ -24,10 +24,6 @@ border-radius: 24px;
         margin-bottom: 50px;
 }
 
-img {
-    border-radius: 24px;
-    margin: 16px 16px 32px 16px;
-}
 
 .our-yachts-container {
     display: flex;
@@ -97,7 +93,7 @@ img {
 
         border: 1px solid rgba(251, 251, 251, 0.35);
             border-radius: 15px;
-            padding: 16px 40px;
+            padding: 16px 0;
             width: 179px;
             height: 52px;
             background-color: transparent;
