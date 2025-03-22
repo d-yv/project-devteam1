@@ -10,12 +10,95 @@
   </head>
   <body>
     
-    <main>
+    
       <load src="./partials/hero.html" />
       <Load src="./partials/about-us.html"/>
       <Load src="./partials/our-yachts.html"/>
       <load src="./partials/advantages.html" />
-      <Load src="./partials/rent-yacht.html"/>
+      <section class="retn-a-yacht">
+        <div class="container">
+          <h2 class="title">Rent a yacht now</h2>
+           <form class="input-form">
+        <div class="input-contact">
+        <label for="user-name" class="input-label"></label>
+            
+              <input
+                type="text"
+                class="yacht-input"
+                name="user-name"
+                id="user-name"
+                placeholder="Full Name"
+                required
+              />            
+              
+                    </div>
+            <div class="input-contact">
+        <label for="user-email" class="input-label"></label>
+           
+              <input
+                type="email"
+                class="yacht-input"
+                name="user-email"
+                id="user-email"
+                placeholder="Email"
+                required
+              />            
+                            
+            
+            </div>
+            <div class="input-contact">
+        <label for="user-phone-number" class="input-label"></label>
+            
+              <input
+                type="tel"
+                class="yacht-input"
+                name="user-phone-number"
+                id="user-phone-number"
+                placeholder="Phone number"
+                required
+              />    
+            
+            </div>   
+            <div class="input-contact">
+        <label for="user-comment" class="input-label"></label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Comment"
+              class="yacht-input"
+            ></textarea>       
+              
+            
+        </div>     
+        
+        <button class="btn-form" type="submit">Send</button>
+        
+    </form>
+    <picture>
+      <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./partials/rent-yacht-desk-1x.jpg 1x,
+                    ./partials/rent-yacht-desk-2x.jpg 2x 
+                    "
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./partials/rent-yacht-tab-1x.jpg 1x,
+                    ./partials/rent-yacht-tab-2x.jpg 2x 
+                    "
+                  />
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="./partials/rent-yacht-mob-1x.jpg 1x,
+                    ./partials/rent-yacht-mob-2x.jpg 2x                        
+                    "
+                  />
+        <img src="./partials/rent-yacht-mob-1x.jpg" alt="Rent a yacht" width="335"/>
+        </picture>
+      </section>
+      </div>
       <Load src="./partials/reviews.html"/>
     </main>
     
