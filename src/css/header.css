@@ -1,9 +1,27 @@
 .header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     width: 100%;
     background-color: #0d131a;
+}
+
+.header-hero-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+    max-width: 375px;
+    height: 812px;
+    background-image: linear-gradient(360deg,
+                rgba(17, 19, 31, 0.2) 15.05%,
+                rgba(17, 19, 31, 0.2) 75.3%,
+                rgba(17, 19, 31, 0.2) 98.27%),
+                url(/img/header/hero-bg-mob.jpg);
+    padding-top: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .header-container {
@@ -21,7 +39,8 @@
     height: 42px;
     width: 100%;
     max-width: 335px;
-    padding-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -40,10 +59,41 @@
     display: none;
 }
 
+.burger-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.header-menu-icon {
+    stroke-width: 2.50px;
+    stroke: #1b414b;    
+}
+
+@media screen and (min-resolution: 2x){
+    .header-hero-div {
+    background-image: linear-gradient(360deg,
+                rgba(17, 19, 31, 0.2) 15.05%,
+                rgba(17, 19, 31, 0.2) 75.3%,
+                rgba(17, 19, 31, 0.2) 98.27%),
+            url(/img/header/hero-bg-mob@2x.jpg);
+    }
+}
 @media screen  and (min-width: 768px) {
+    .header-hero-div {
+            background-image: linear-gradient(360deg,
+                    rgba(17, 19, 31, 0.2) 15.05%,
+                    rgba(17, 19, 31, 0.2) 75.3%,
+                    rgba(17, 19, 31, 0.2) 98.27%),
+                url(/img/header/hero-bg-tab.jpg);
+            max-width: 768px;
+            height: 962px;
+        }
     .header-block {
         max-width: 704px;
         height: 48px;
+        padding-left: 28px;
+        padding-right: 28px;
     }
 
     .header-nav-menu {
@@ -59,12 +109,28 @@
     }
 
     .header-nav-menu-list-item {
-        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 8px;        
         width: 91px;
         height: 40px;
         background: rgba(27, 65, 75, 0.5);
+        transition: background-color 250ms 
+                    cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
+    .header-nav-menu-list-item:hover,
+    .header-nav-menu-list-item:focus{
+        background: #1b414b;
+    }
+
+    .header-logo {
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: -0.03em;
+    }
+
     .header-nav-menu-list-title {
         font-weight: 400;
         font-size: 9px;
@@ -74,35 +140,79 @@
         color: #fbfbfb;
     }
 
-.header-social {
-    display: block;
+    .header-social {
+        display: block;
+    }
+
+    .header-social-list {
+        display: flex;
+    }
+
+    .header-social-list-item {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header-social-icon-link {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-icon {
+        width: 100%;
+        height: 100%;
+        fill: #1b414b;
+        transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .header-icon:hover,
+    .header-icon:focus {
+        stroke: #062730;
+    }
+
+    .burger-btn {
+        display: none;
+    }
+}
+@media screen and (min-width:768) and (min-resolution: 2x) {
+    .header-hero-div {
+        background-image: linear-gradient(360deg,
+                rgba(17, 19, 31, 0.2) 15.05%,
+                rgba(17, 19, 31, 0.2) 75.3%,
+                rgba(17, 19, 31, 0.2) 98.27%),
+            url(/img/header/hero-bg-tab@2x.jpg);
+        }
+}
+@media screen and (min-width: 1280px) {
+.header-hero-div {
+        background-image: linear-gradient(360deg,
+                rgba(17, 19, 31, 0.2) 15.05%,
+                rgba(17, 19, 31, 0.2) 75.3%,
+                rgba(17, 19, 31, 0.2) 98.27%),
+            url(/img/header/hero-bg-dt.jpg);
+        max-width: 1280px;
+        height: 800px;   
+        border: 1px solid #000;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .header-block {
+        max-width: 1080px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
 }
 
-.header-social-list {
-    display: flex;
-}
+@media screen and (min-width: 1280px)and (min-resolution: 2x){
+    .header-hero-div {
+            background-image: linear-gradient(360deg,
+                    rgba(17, 19, 31, 0.2) 15.05%,
+                    rgba(17, 19, 31, 0.2) 75.3%,
+                    rgba(17, 19, 31, 0.2) 98.27%),
+                url(/img/header/hero-bg-dt@2x.jpg);
+        }
 
-.header-social-list-item {
-    width: 24px;
-    height: 24px;
 }
-
-.header-social-icon-link {
-    width: 100%;
-    height: 100%;
-    /* Всі іконки круглі */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Тільки перша іконка квадратна */
-
-.header-icon {
-    width: 100%;
-    height: 100%;
-    fill: #1b414b;
-}
-}
-    

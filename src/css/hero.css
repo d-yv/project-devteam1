@@ -1,0 +1,116 @@
+.hero {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 198px 0 243px;
+    margin: 200px auto 0;
+}
+
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    max-width: 100%;
+}
+
+.hero-text {
+    font-family: "Inter", sans-serif;
+    max-width: 335px;
+    max-height: 56px;
+    margin: 24px auto;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+    color: rgba(251, 251, 251, 0.7);
+}
+
+.button {
+    display: block;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #fff;
+    background: #1b414b;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 15px;
+    padding: 14px 32px;
+    width: 141px;
+    height: 46px;
+}
+
+.button:focus,
+.button:hover {
+    color: #1b414b;
+    background-color: #fbfbfb;
+}
+
+@media screen and (min-width: 556px) and (max-width: 1280px) {
+    .hero {
+        min-width: 648px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .hero-title {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 70px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fbfbfb;
+    }
+
+    .hero-text {
+        max-width: 570px;
+        margin: 24px auto 48px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: center;
+        color: rgba(251, 251, 251, 0.7);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .hero-container {
+        text-align: center;
+    }
+
+    .hero-title {
+        max-width: 1001px;
+        font-size: 80px;
+        margin: 0 auto;
+    }
+
+    .hero-text {
+        font-family: "Inter", sans-serif;
+        margin: 24px auto 48px;
+        max-width: 570px;
+        font-size: 16px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+}
