@@ -1,4 +1,4 @@
-.title {
+.yacht-title {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 28px;
@@ -13,6 +13,8 @@
   font-size: 12px;
   line-height: 117%;
   color: rgba(251, 251, 251, 0.4);
+  background: #0e1823;
+  border: none;
 }
 .btn-form {
   font-family: var(--font-family);
@@ -26,6 +28,7 @@
   width: 122px;
   height: 46px;
   background: #1b414b;
+  margin-bottom: 80px;
 }
 .input-contact {
   border: 1px solid rgba(251, 251, 251, 0.2);
@@ -34,4 +37,12 @@
   width: 335px;
   height: 42px;
   margin-bottom: 18px;
+}
+.yacht-form {
+  width: 335px;
+  height: 288px;
+  margin-bottom: 40px;
+}
+.input-contact-com {
+  height: 108px;
 }
