@@ -1,8 +1,10 @@
-.end-page {
+.foot {
     background-color: #1b414b;
     border-radius: 24px 24px 0 0;
     padding-bottom: 20px;
     padding-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
@@ -142,6 +144,11 @@
 
 @media only screen and (min-width: 768px) {
 
+    .foot {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
     .header-footer {
         display: flex;
         justify-content: space-between;
@@ -232,6 +239,11 @@
 }
 
 @media only screen and (min-width: 1280px) {
+
+    .foot {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
 
     .header-footer {
         display: flex;
