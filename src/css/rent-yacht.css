@@ -1,5 +1,4 @@
-.title {
-  font-family: var(--font-family);
+.yacht-title {
   font-weight: 500;
   font-size: 28px;
   line-height: 100%;
@@ -8,14 +7,24 @@
   margin-bottom: 40px;
 }
 .yacht-input {
-  font-family: var(--font-family);
+  width: 100%;
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
   color: rgba(251, 251, 251, 0.4);
+  background: #0e1823;
+  padding: 14px 18px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  height: 42px;
+  outline: transparent;
 }
+
+.yacht-input:active {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+}
+
 .btn-form {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -26,12 +35,70 @@
   width: 122px;
   height: 46px;
   background: #1b414b;
+  margin-bottom: 80px;
+  margin-top: 22px;
+  border: none;
 }
-.input-contact {
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 12px;
-  padding: 14px 261px 14px 18px;
+
+.input-contact-com {
+  height: 108px;
+  resize: none;
+}
+.yacht-img-rent {
+  overflow: hidden;
+  border-radius: 24px;
+  margin-bottom: 80px;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
   width: 335px;
-  height: 42px;
-  margin-bottom: 18px;
+}
+@media screen and (min-width: 768px) {
+  .yacht-title {
+    font-size: 48px;
+  }
+  .yacht-input {
+    font-size: 14px;
+    line-height: 129%;
+    padding: 18px;
+    height: 54px;
+  }
+  .btn-form {
+    font-size: 18px;
+    line-height: 110%;
+    padding: 18px 75px;
+    width: 194px;
+    height: 56px;
+    margin-bottom: 100px;
+    margin-top: 32px;
+  }
+  .input-form {
+    width: 473px;
+  }
+  .input-contact-com {
+    height: 116px;
+  }
+  .yacht-img-rent {
+    margin-bottom: 150px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .btn-form {
+    margin-bottom: 150px;
+  }
+  .input-form {
+    width: 472px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+  }
+  .btn-form:hover,
+  .btn-form:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
 }
