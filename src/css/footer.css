@@ -9,12 +9,12 @@
     border-radius: 24px 24px 0 0;
     padding-top: 40px;
     padding-bottom: 20px;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: 0 auto;
     width: 100%;
     min-width: 300px;
-    max-width: 335px;
+    max-width: 355px;
     height: 412px;
 }
 
@@ -171,6 +171,15 @@
         padding-right: 16px;
     }
 
+    .foot{
+        padding-top: 50px;
+        padding-left: 48px;
+        padding-right: 48px;
+        margin: 0 auto;
+        min-width: 736px;
+        height: 418px;
+    }
+
     .block-footer {
         display: flex;
         justify-content: space-between;
@@ -260,6 +269,14 @@
     .end-page {
         padding-left: 25px;
         padding-right: 25px;
+    }
+    .foot {
+        padding-top: 50px;
+        padding-left: 75px;
+        padding-right: 75px;
+        margin: 0 auto;
+        min-width: 1230px;
+        height: 418px;
     }
 
     .header-footer {
