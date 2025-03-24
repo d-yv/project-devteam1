@@ -12,7 +12,7 @@
   width: 335px;
   margin: 0 auto 25px;
 }
-.reviews-deskr {
+.reviews-desc {
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
@@ -55,7 +55,7 @@
   color: #040306;
   margin: 0 auto 8px;
 }
-.reviews-item .reviews-deskr {
+.reviews-item .reviews-desc {
   width: 303px;
   font-weight: 400;
   font-size: 16px;
@@ -73,7 +73,7 @@
     width: 704px;
     font-size: 48px;
   }
-  .reviews-deskr {
+  .reviews-desc {
     width: 704px;
     font-size: 14px;
     line-height: 129%;
