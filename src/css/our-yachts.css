@@ -26,6 +26,7 @@
 .our-yachts-img {
   border-radius: 24px;
   margin-bottom: 32px;
+  overflow: hidden;
 }
 
 .our-yachts-container {
