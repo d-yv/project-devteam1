@@ -1,19 +1,11 @@
-.hero {
+.hero-section {
 
     display: block;
     width: 100%;
     height: auto;
     padding: 198px 0 243px;
-    background-image: linear-gradient(360deg, rgba(17, 19, 31, 0.2) 15.05%, rgba(17, 19, 31, 0.2) 75.3%, rgba(17, 19, 31, 0.2) 98.27%),
-        image-set(url("/img/hero/yacht-image-phone1x.jpg") 1x,
-            url("/img/hero/yacht-image-phone@2x.jpg") 2x);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
     margin: 0 auto;
 }
-
 
 .hero-container {
     display: flex;
@@ -23,21 +15,21 @@
 }
 
 .hero-title {
-    font-family: "Inter", sans-serif;
+
     font-weight: 500;
     font-size: 32px;
     line-height: 1;
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    max-width: 100%;
+    max-width: 335px;
 }
 
 .hero-text {
-    font-family: "Inter", sans-serif;
+
     max-width: 335px;
-    max-height: 56px;
-    margin: 24px auto;
+    margin-top: 24px;
+    margin-bottom: 38px;
     font-weight: 300;
     font-size: 12px;
     line-height: 1.17;
@@ -46,7 +38,7 @@
 }
 
 .hero-button {
-    font-family: "Inter", sans-serif;
+
     display: block;
     border: none;
     font-weight: 500;
@@ -69,31 +61,20 @@
     background-color: #fbfbfb;
 }
 
-@media screen and (min-width: 556px) and (max-width: 1280px) {
-    .hero {
-        display: block;
-        max-width: 100%;
+@media screen and (min-width: 768px) {
+    .hero-section {
         height: auto;
         min-width: 648px;
-
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin: 0 auto;
-        background-image: linear-gradient(360deg, rgba(17, 19, 31, 0.2) 15.05%, rgba(17, 19, 31, 0.2) 75.3%, rgba(17, 19, 31, 0.2) 98.27%),
-            image-set(url("/img/hero/yacht-image-decktop1x.jpg") 1x,
-                url("/img/hero/yacht-image-decktop@2x.jpg") 2x);
+        padding: 200px 0 215px 0;
 
     }
 
     .hero-title {
-        font-family: "Inter", sans-serif;
-        font-weight: 500;
+
         font-size: 70px;
-        line-height: 1;
-        letter-spacing: -0.02em;
         text-align: center;
-        color: #fbfbfb;
+        max-width: 704px;
+
     }
 
     .hero-text {
@@ -112,24 +93,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .hero {
-
-        display: block;
-        width: 100%;
+    .hero-section {
         height: auto;
         padding: 155px 0 180px;
-        background-image: linear-gradient(360deg, rgba(17, 19, 31, 0.2) 15.05%, rgba(17, 19, 31, 0.2) 75.3%, rgba(17, 19, 31, 0.2) 98.27%),
-            image-set(url("/img/hero/yacht-image-decktop1x.jpg") 1x,
-                url("/img/hero/yacht-image-decktop@2x.jpg") 2x);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
 
-        margin: 0 auto;
-    }
-
-    .hero-container {
-        text-align: center;
     }
 
     .hero-title {
@@ -139,12 +106,9 @@
     }
 
     .hero-text {
-        font-family: "Inter", sans-serif;
+
         margin: 24px auto 48px;
-        max-width: 570px;
-        font-size: 16px;
-        line-height: 1.4;
-        text-align: center;
+        max-width: 597px;
     }
 
     .hero-button {
