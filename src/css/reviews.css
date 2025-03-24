@@ -29,13 +29,16 @@
   margin: 0 auto;
 }
 .reviews-list {
+  width: 1069px;
   display: flex;
   gap: 32px;
+
 }
 .reviews-item {
   padding: 32px 8px;
   border-radius: 24px;
   background: #fbfbfb;
+  width: calc((100% - 64px) / 3);
 }
 .reviews-photo {
   margin: 0 auto 24px;
@@ -79,6 +82,9 @@
   .reviews-box {
     width: 704px;
   }
+  .reviews-list{
+    width: 1072px;
+  }
   .reviews-item {
     background-color: #fbfbfb;
     width: calc((100% - 32px) / 2);
@@ -95,6 +101,7 @@
     width: 1180px;
   }
   .reviews-list {
+    width: 1180px;
     gap: 26px;
   }
   .reviews-item {
