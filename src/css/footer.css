@@ -233,9 +233,9 @@
         max-height: 24px;
     }
 
-    .nav-list {
+    .link {
         width: 91px;
-        max-width: 91px;
+        max-width: 100%;
     }
 
     .block-one {
