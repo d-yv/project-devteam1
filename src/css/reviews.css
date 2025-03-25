@@ -49,7 +49,7 @@
 }
 
 .reviews-item {
-  padding: 32px 16px;
+  padding: 32px 8px;
   border-radius: 24px;
   background: #fbfbfb;
   box-sizing: border-box;
@@ -86,13 +86,7 @@
   color: rgba(4, 3, 6, 0.4);
   max-width: 303px;    
   height: 110px;
-  overflow-y: scroll;
-}
-
-@media screen and (min-width: 374px){
-  .reviews-desc{
-    overflow-y: hidden;
-  }
+  
 }
 
 @media screen and (min-width: 768px) {
