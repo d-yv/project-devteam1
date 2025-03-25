@@ -58,16 +58,8 @@
 }
 
 .nav-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 66px;
-    height: 40px;
-    outline: none;
-    box-shadow: none;
-    border: none;
     border-radius: 8px;
-    background: rgba(251, 251, 251, 0.3);
+
 }
 
 .link {
@@ -78,6 +70,16 @@
     text-align: center;
     color: #fbfbfb;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 40px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 8px;
+    background: rgba(251, 251, 251, 0.3);
 }
 
 .nav-list:hover,
@@ -95,7 +97,13 @@
     list-style: none;
 }
 
-.footer-svg {
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+    fill: rgba(251, 251, 251, 0.8);
+}
+
+.footer-icon-link {
     fill: #fbfbfb;
 }
 
