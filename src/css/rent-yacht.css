@@ -1,6 +1,12 @@
 .retn-a-yacht {
   padding-bottom: 80px;
 }
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
 .yacht-title {
   font-weight: 500;
   font-size: 28px;
@@ -38,7 +44,6 @@
   width: 122px;
   height: 46px;
   background: #1b414b;
-  margin-bottom: 80px;
   margin-top: 22px;
   border: none;
 }
@@ -62,9 +67,7 @@
     padding-bottom: 150px;
   }
   .form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    gap: 100px;
   }
 
   .yacht-title {
