@@ -1,5 +1,6 @@
 .reviews {
   max-width: 335px;
+  min-width: 320px;
   margin: 0 auto 80px;
 }
 
@@ -14,7 +15,7 @@
   margin: 0 auto 25px;
 }
 
-.reviews-desc {
+.reviews-desc-title {
   font-weight: 400;
   font-size: 12px;
   line-height: 117%;
@@ -23,9 +24,7 @@
   text-align: center;
   color: #fbfbfb;
   opacity: 0.4;
-  max-width: 303px;    
-  height: 110px;
-  overflow-y: scroll;
+  max-width: 335px;
 }
 
 .reviews-box {
@@ -38,6 +37,8 @@
   margin: 0 auto;
 }
 
+
+
 .reviews-list {
   display: flex;
   gap: 32px;
@@ -48,7 +49,7 @@
 }
 
 .reviews-item {
-  padding: 32px 8px;
+  padding: 32px 16px;
   border-radius: 24px;
   background: #fbfbfb;
   box-sizing: border-box;
@@ -74,9 +75,8 @@
   margin: 0 auto 8px;
 }
 
-.reviews-item .reviews-desc {
+.reviews-desc {
   width: 100%;
-  padding-inline: 8px;
   box-sizing: border-box;
   font-weight: 400;
   font-size: 16px;
@@ -84,33 +84,45 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
+  max-width: 303px;    
+  height: 110px;
+  overflow-y: scroll;
+}
 
+@media screen and (min-width: 374px){
+  .reviews-desc{
+    overflow-y: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .reviews {
     width: 704px;
-    max-width: 704px;
+    max-width: none;
     margin: 0 auto 150px;
   }
 
   .reviews-subtitle {
     width: 704px;
-    max-width: 704px;
+    max-width: none;
     font-size: 48px;
   }
 
-  .reviews-desc {
-    width: 704px;
-    max-width: 704px;
+  .reviews-desc-title {
     font-size: 14px;
-    line-height: 129%;
-    margin-bottom: 75px;
+    line-height: 1.29;
+    width: 571px;
+    max-width: none;
+  }
+
+  .reviews-desc {
+    width: 296px;
+    max-width: none;
   }
 
   .reviews-box {
     width: 100%;
-    max-width: 704px;
+    max-width: none;
     margin: 0 auto;
   }
 
@@ -121,6 +133,7 @@
   }
 
   .reviews-item {
+    padding: 32px 20px;
     flex: 0 0 336px;
     max-width: 336px;
   }
@@ -130,23 +143,25 @@
 @media screen and (min-width: 1280px) {
   .reviews {
     width: 1180px;
-    max-width: 1180px;
   }
 
   .reviews-subtitle {
     width: 854px;
-    max-width: 854px;
+
   }
 
   .reviews-box {
     width: 100%;
-    max-width: 1180px;
     margin: 0 auto;
   }
 
   .reviews-item {
+    padding: 32px 28px;
     flex: 0 0 376px;
     max-width: 376px;
+  }
+  .reviews-desc {
+    width: 320px;
   }
 
   .reviews-list {
