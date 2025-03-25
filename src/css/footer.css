@@ -15,7 +15,6 @@
     width: 100%;
     min-width: 300px;
     max-width: 355px;
-    height: 412px;
 }
 
 
@@ -171,7 +170,7 @@
         padding-right: 16px;
     }
 
-    .foot{
+    .foot {
         padding-top: 50px;
         padding-left: 48px;
         padding-right: 48px;
@@ -212,6 +211,10 @@
         justify-content: flex-end;
         width: 88px;
         margin-top: 0;
+    }
+
+    .social-icons-block {
+        margin-bottom: 0;
     }
 
     .logo-end {
@@ -270,6 +273,7 @@
         padding-left: 25px;
         padding-right: 25px;
     }
+
     .foot {
         padding-top: 50px;
         padding-left: 75px;
