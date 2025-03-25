@@ -1,7 +1,8 @@
 .reviews {
   max-width: 335px;
   min-width: 320px;
-  margin: 0 auto 80px;
+  margin: 0 auto;
+  padding-bottom: 80px;
 }
 
 .reviews-subtitle {
@@ -53,7 +54,6 @@
   border-radius: 24px;
   background: #fbfbfb;
   box-sizing: border-box;
-  margin-bottom: 50px;
   flex: 0 0 calc(100dvw - 40px);
   max-width: 335px;
 }
@@ -93,7 +93,8 @@
   .reviews {
     width: 704px;
     max-width: none;
-    margin: 0 auto 150px;
+    margin: 0 auto;
+    padding-bottom: 150px;
   }
 
   .reviews-subtitle {
