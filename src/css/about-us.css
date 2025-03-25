@@ -1,14 +1,14 @@
 .about-us {
   position: relative;
-  top: -77px;
+  /* top: -77px; */
 }
 .container-about-us {
-  border-radius: 24px;
+  border-radius: 28px;
   max-width: 335px;
-  height: 675px;
+  /* height: 675px; */
   background: #fbfbfb;
   margin: 0 auto;
-  margin-bottom: 103px;
+  /* margin-bottom: 103px; */
 }
 
 .text-about-us {
@@ -49,6 +49,10 @@
   display: block;
 }
 
+.img-about-us {
+  margin-bottom: 80px;
+}
+
 .pict-about-us {
   border-radius: 24px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -57,11 +61,11 @@
 
 @media screen and (min-width: 768px) {
   .about-us {
-    top: -67px;
+    /* top: -67px; */
   }
   .container-about-us {
     max-width: 704px;
-    margin-bottom: 359px;
+    /* margin-bottom: 359px; */
   }
   .text-about-us {
     padding: 50px 0px 50px 32px;
@@ -81,20 +85,23 @@
     font-size: 13px;
     line-height: 115%;
   }
-  .pict-about-us {
-    border-radius: 24px;
-    box-shadow: none;
+
+  .img-about-us {
     margin-bottom: 150px;
+  }
+  .pict-about-us {
+    box-shadow: none;
+    /* margin-bottom: 150px; */
   }
 }
 
 @media screen and (min-width: 1280px) {
   .about-us {
-    top: -35px;
+    /* top: -35px; */
   }
   .container-about-us {
     max-width: 1180px;
-    margin-bottom: 270px;
+    /* margin-bottom: 270px; */
   }
   .text-about-us {
     display: flex;
@@ -105,7 +112,4 @@
   .content-block {
     max-width: 354px;
   }
-}
-
-@media screen and (min-width: 1440px) {
 }
