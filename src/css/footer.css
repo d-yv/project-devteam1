@@ -133,7 +133,9 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
+    width: 279px;
     max-width: 100%;
+
 }
 
 .footer-bottom {
@@ -237,7 +239,6 @@
 
 
     .text {
-        max-width: 640px;
         height: 96px;
         margin-bottom: 99px;
     }
@@ -245,15 +246,14 @@
 
 
     .text-footer {
-
         font-size: 32px;
-        max-width: 640px;
+        width: 640px;
         height: 96px;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-
+        max-width: 100%;
     }
 
     .bottom-text {
@@ -306,12 +306,12 @@
     }
 
     .text {
-        max-width: 693px;
         margin-bottom: 99px;
     }
 
     .text-footer {
-        max-width: 693px;
+        width: 693px;
+        max-width: 100%;
     }
 
 }
