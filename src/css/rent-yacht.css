@@ -1,3 +1,6 @@
+.retn-a-yacht {
+  padding-bottom: 80px;
+}
 .yacht-title {
   font-weight: 500;
   font-size: 28px;
@@ -47,7 +50,6 @@
 .yacht-img-rent {
   overflow: hidden;
   border-radius: 24px;
-  margin-bottom: 80px;
 }
 .input-form {
   display: flex;
@@ -56,6 +58,9 @@
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
+  .retn-a-yacht {
+    padding-bottom: 150px;
+  }
   .form-container {
     display: flex;
     flex-direction: column;
@@ -78,7 +83,6 @@
     padding: 18px 75px;
     width: 194px;
     height: 56px;
-    margin-bottom: 100px;
     margin-top: 32px;
   }
   .input-form {
@@ -87,14 +91,8 @@
   .input-contact-com {
     height: 116px;
   }
-  .yacht-img-rent {
-    margin-bottom: 150px;
-  }
 }
 @media screen and (min-width: 1280px) {
-  .btn-form {
-    margin-bottom: 150px;
-  }
   .input-form {
     width: 472px;
   }
