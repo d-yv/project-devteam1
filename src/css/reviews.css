@@ -13,7 +13,8 @@
   text-align: center;
   color: #fbfbfb;
   max-width: 335px;
-  margin: 0 auto 25px;
+  margin: 0 auto;
+  padding-bottom: 25px;
 }
 
 .reviews-desc-title {
@@ -21,7 +22,8 @@
   font-size: 12px;
   line-height: 117%;
   letter-spacing: -0.02em;
-  margin: 0 auto 40px;
+  margin: 0 auto;
+  padding-bottom: 40px;
   text-align: center;
   color: #fbfbfb;
   opacity: 0.4;
