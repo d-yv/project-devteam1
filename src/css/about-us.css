@@ -1,5 +1,6 @@
 .about-us {
   padding-bottom: 80px;
+  margin-top: -77px;
 }
 .container-about-us {
   border-radius: 24px;
@@ -66,6 +67,7 @@
 @media screen and (min-width: 768px) {
   .about-us {
     padding-bottom: 150px;
+    margin-top: -67px;
   }
   .container-about-us {
     min-width: 768px;
@@ -97,6 +99,9 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .about-us {
+    margin-top: -35px;
+  }
   .container-about-us {
     min-width: 1280px;
     padding: 0 50px;
