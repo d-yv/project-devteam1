@@ -58,7 +58,7 @@
 }
 @media screen and (max-width: 374px) {
   .about-us-title {
-    max-width: 100%px;
+    max-width: 100%;
   }
   .image-box {
     max-width: 100%;
